@@ -17,3 +17,9 @@ if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
 ```
 ### ip API key
 register an own API key.
+
+### How to use
+insert below code in a .php file.
+```
+require_once "comm_function.php";
+```
