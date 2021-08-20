@@ -1,7 +1,7 @@
 # log ip
 logging ip, OS, browser, time and file .php in a file. Database less. 
 
-### log format exsample
+### log file exsample
 ```
 From NL, South Holland, Krimpen aan den IJssel, AS43350 NForce Entertainment B.V. Client: Windows 10---Firefox(78.0), ip: 46.166.139.*, at 2021-08-20 18:35:40 access to: /logipgithub/index.php
 From US, Delaware, Wilmington, AS208294 CIA TRIAD SECURITY LLC Client: Windows 10---Firefox(78.0), ip: 2a0b::*, at 2021-08-20 18:36:30 access to: /logipgithub/index.php
