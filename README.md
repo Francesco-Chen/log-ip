@@ -10,7 +10,7 @@ From US, Arizona, Mesa, AS62744 Quintex Alliance Consulting Client: Windows 10--
 From AT, Styria, Graz, AS208323 Foundation for Applied Privacy Client: Windows 10---Firefox(78.0), ip: 2a03:e600::*, at 2021-08-20 18:37:58 access to: /logipgithub/comm_function.php
 ```
 ### if use cloudflare CDN make sure below code is uncommented
-```
+```php
 if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
   $_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
 }
@@ -20,6 +20,6 @@ register an own API key.
 
 ### How to use
 insert below code in a .php file.
-```
+```php
 require_once "comm_function.php";
 ```
